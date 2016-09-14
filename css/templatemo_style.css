@@ -1,7 +1,10 @@
-.templatemorow	{ margin: 0px 30px; }
-.templatemo_servicerow	{ margin: 0px; }
-.blok	{ position: absolute; }
 .hex	{ margin-top: 130px !important; width: 20%; float: left; }
+.hex-container {
+    position: block;
+    width: 800px;
+    height: 540px;
+    margin-top: -50px;
+}
 .hex-offset	{ margin-left: 10%; }
 .hexagon2, .hexagonteam {
 	position: absolute;
@@ -273,7 +276,7 @@
 }
 
 .hexagon2 {
-    position: absolute;
+    position: block;
     width: 130px;
     height: 250px;
     top: -85px;
